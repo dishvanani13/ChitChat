@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E5C2B5DE0FDBD7ABE6FE664 /* Pods_ChitChaTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48E52D0CFAA0A2FA9DE9354 /* Pods_ChitChaTTests.framework */; };
+		8CC30C242B6745810016878D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CC30C232B6745810016878D /* GoogleService-Info.plist */; };
+		8CD184802B603D6E00ECEED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1847F2B603D6E00ECEED5 /* AppDelegate.swift */; };
+		8CD184822B603D6E00ECEED5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD184812B603D6E00ECEED5 /* SceneDelegate.swift */; };
+		8CD184842B603D6E00ECEED5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD184832B603D6E00ECEED5 /* WelcomeViewController.swift */; };
+		8CD184872B603D6E00ECEED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD184852B603D6E00ECEED5 /* Main.storyboard */; };
+		8CD184892B603D7100ECEED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD184882B603D7100ECEED5 /* Assets.xcassets */; };
+		8CD1848C2B603D7100ECEED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1848A2B603D7100ECEED5 /* LaunchScreen.storyboard */; };
+		8CD184972B603D7200ECEED5 /* ChitChaTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD184962B603D7200ECEED5 /* ChitChaTTests.swift */; };
+		8CD184A12B603D7200ECEED5 /* ChitChaTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD184A02B603D7200ECEED5 /* ChitChaTUITests.swift */; };
+		8CD184A32B603D7200ECEED5 /* ChitChaTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD184A22B603D7200ECEED5 /* ChitChaTUITestsLaunchTests.swift */; };
+		8CD184B02B60410F00ECEED5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD184AF2B60410F00ECEED5 /* LoginViewController.swift */; };
+		8CD184B32B60415C00ECEED5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD184B22B60415C00ECEED5 /* RegisterViewController.swift */; };
+		8CD184B52B60417B00ECEED5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD184B42B60417B00ECEED5 /* ChatViewController.swift */; };
+		8CF39BA12B70224000101C43 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BA02B70224000101C43 /* Constants.swift */; };
+		8CF39BA42B7028CB00101C43 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BA32B7028CB00101C43 /* Message.swift */; };
+		8CF39BA82B7030F300101C43 /* CellMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BA62B7030F300101C43 /* CellMessage.swift */; };
+		8CF39BA92B7030F300101C43 /* CellMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CF39BA72B7030F300101C43 /* CellMessage.xib */; };
+		C787D45E6662969F0D4EA0B3 /* Pods_ChitChaT_ChitChaTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AD76326B49C724D974C92D /* Pods_ChitChaT_ChitChaTUITests.framework */; };
+		D8CE34CFB20EF43E6F612A4C /* Pods_ChitChaT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CF2CA5C61FC5EF768CBA23 /* Pods_ChitChaT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD184932B603D7200ECEED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD184742B603D6E00ECEED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD1847B2B603D6E00ECEED5;
+			remoteInfo = ChitChaT;
+		};
+		8CD1849D2B603D7200ECEED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD184742B603D6E00ECEED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD1847B2B603D6E00ECEED5;
+			remoteInfo = ChitChaT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CF2CA5C61FC5EF768CBA23 /* Pods_ChitChaT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChitChaT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		162E56B84400CD6D533CE06A /* Pods-ChitChaTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChitChaTTests.release.xcconfig"; path = "Target Support Files/Pods-ChitChaTTests/Pods-ChitChaTTests.release.xcconfig"; sourceTree = "<group>"; };
+		32BC5508F2D7133E9B8E48BE /* Pods-ChitChaT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChitChaT.release.xcconfig"; path = "Target Support Files/Pods-ChitChaT/Pods-ChitChaT.release.xcconfig"; sourceTree = "<group>"; };
+		364628ABD47401A8726EAF5C /* Pods-ChitChaT-ChitChaTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChitChaT-ChitChaTUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChitChaT-ChitChaTUITests/Pods-ChitChaT-ChitChaTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B853EB679147391874BE44C /* Pods-ChitChaT-ChitChaTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChitChaT-ChitChaTUITests.release.xcconfig"; path = "Target Support Files/Pods-ChitChaT-ChitChaTUITests/Pods-ChitChaT-ChitChaTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68AD76326B49C724D974C92D /* Pods_ChitChaT_ChitChaTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChitChaT_ChitChaTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9B57BE930DA33366C51FB6 /* Pods-ChitChaT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChitChaT.debug.xcconfig"; path = "Target Support Files/Pods-ChitChaT/Pods-ChitChaT.debug.xcconfig"; sourceTree = "<group>"; };
+		8CC30C232B6745810016878D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CD1847C2B603D6E00ECEED5 /* ChitChaT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChitChaT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD1847F2B603D6E00ECEED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CD184812B603D6E00ECEED5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CD184832B603D6E00ECEED5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8CD184862B603D6E00ECEED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CD184882B603D7100ECEED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CD1848B2B603D7100ECEED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CD1848D2B603D7100ECEED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD184922B603D7200ECEED5 /* ChitChaTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChitChaTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD184962B603D7200ECEED5 /* ChitChaTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitChaTTests.swift; sourceTree = "<group>"; };
+		8CD1849C2B603D7200ECEED5 /* ChitChaTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChitChaTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD184A02B603D7200ECEED5 /* ChitChaTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitChaTUITests.swift; sourceTree = "<group>"; };
+		8CD184A22B603D7200ECEED5 /* ChitChaTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitChaTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CD184AF2B60410F00ECEED5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8CD184B22B60415C00ECEED5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8CD184B42B60417B00ECEED5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8CF39BA02B70224000101C43 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8CF39BA32B7028CB00101C43 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8CF39BA62B7030F300101C43 /* CellMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMessage.swift; sourceTree = "<group>"; };
+		8CF39BA72B7030F300101C43 /* CellMessage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMessage.xib; sourceTree = "<group>"; };
+		BF1D112B7982C6F61D9FFAD8 /* Pods-ChitChaTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChitChaTTests.debug.xcconfig"; path = "Target Support Files/Pods-ChitChaTTests/Pods-ChitChaTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D48E52D0CFAA0A2FA9DE9354 /* Pods_ChitChaTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChitChaTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD184792B603D6E00ECEED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CE34CFB20EF43E6F612A4C /* Pods_ChitChaT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD1848F2B603D7200ECEED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5C2B5DE0FDBD7ABE6FE664 /* Pods_ChitChaTTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD184992B603D7200ECEED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C787D45E6662969F0D4EA0B3 /* Pods_ChitChaT_ChitChaTUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CD184732B603D6E00ECEED5 = {
+			isa = PBXGroup;
+			children = (
+				8CD1847E2B603D6E00ECEED5 /* ChitChaT */,
+				8CD184952B603D7200ECEED5 /* ChitChaTTests */,
+				8CD1849F2B603D7200ECEED5 /* ChitChaTUITests */,
+				8CD1847D2B603D6E00ECEED5 /* Products */,
+				8D2758F727CC851DFDAB6E33 /* Pods */,
+				F2EB683CD7F0A6FCF58A8EFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD1847D2B603D6E00ECEED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD1847C2B603D6E00ECEED5 /* ChitChaT.app */,
+				8CD184922B603D7200ECEED5 /* ChitChaTTests.xctest */,
+				8CD1849C2B603D7200ECEED5 /* ChitChaTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD1847E2B603D6E00ECEED5 /* ChitChaT */ = {
+			isa = PBXGroup;
+			children = (
+				8CD184B12B60411D00ECEED5 /* Contoller */,
+				8CF39BA22B70289D00101C43 /* Model */,
+				8CF39BA52B70306500101C43 /* View */,
+				8CD1847F2B603D6E00ECEED5 /* AppDelegate.swift */,
+				8CD184812B603D6E00ECEED5 /* SceneDelegate.swift */,
+				8CD184882B603D7100ECEED5 /* Assets.xcassets */,
+				8CD1848A2B603D7100ECEED5 /* LaunchScreen.storyboard */,
+				8CD1848D2B603D7100ECEED5 /* Info.plist */,
+				8CC30C232B6745810016878D /* GoogleService-Info.plist */,
+			);
+			path = ChitChaT;
+			sourceTree = "<group>";
+		};
+		8CD184952B603D7200ECEED5 /* ChitChaTTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CD184962B603D7200ECEED5 /* ChitChaTTests.swift */,
+			);
+			path = ChitChaTTests;
+			sourceTree = "<group>";
+		};
+		8CD1849F2B603D7200ECEED5 /* ChitChaTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CD184A02B603D7200ECEED5 /* ChitChaTUITests.swift */,
+				8CD184A22B603D7200ECEED5 /* ChitChaTUITestsLaunchTests.swift */,
+			);
+			path = ChitChaTUITests;
+			sourceTree = "<group>";
+		};
+		8CD184B12B60411D00ECEED5 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				8CD184832B603D6E00ECEED5 /* WelcomeViewController.swift */,
+				8CD184AF2B60410F00ECEED5 /* LoginViewController.swift */,
+				8CD184B22B60415C00ECEED5 /* RegisterViewController.swift */,
+				8CD184B42B60417B00ECEED5 /* ChatViewController.swift */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		8CF39BA22B70289D00101C43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CF39BA02B70224000101C43 /* Constants.swift */,
+				8CF39BA32B7028CB00101C43 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CF39BA52B70306500101C43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CD184852B603D6E00ECEED5 /* Main.storyboard */,
+				8CF39BA62B7030F300101C43 /* CellMessage.swift */,
+				8CF39BA72B7030F300101C43 /* CellMessage.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D2758F727CC851DFDAB6E33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E9B57BE930DA33366C51FB6 /* Pods-ChitChaT.debug.xcconfig */,
+				32BC5508F2D7133E9B8E48BE /* Pods-ChitChaT.release.xcconfig */,
+				364628ABD47401A8726EAF5C /* Pods-ChitChaT-ChitChaTUITests.debug.xcconfig */,
+				5B853EB679147391874BE44C /* Pods-ChitChaT-ChitChaTUITests.release.xcconfig */,
+				BF1D112B7982C6F61D9FFAD8 /* Pods-ChitChaTTests.debug.xcconfig */,
+				162E56B84400CD6D533CE06A /* Pods-ChitChaTTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2EB683CD7F0A6FCF58A8EFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00CF2CA5C61FC5EF768CBA23 /* Pods_ChitChaT.framework */,
+				68AD76326B49C724D974C92D /* Pods_ChitChaT_ChitChaTUITests.framework */,
+				D48E52D0CFAA0A2FA9DE9354 /* Pods_ChitChaTTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CD1847B2B603D6E00ECEED5 /* ChitChaT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD184A62B603D7200ECEED5 /* Build configuration list for PBXNativeTarget "ChitChaT" */;
+			buildPhases = (
+				54A87E4CAD0BCD32CE0FFF46 /* [CP] Check Pods Manifest.lock */,
+				8CD184782B603D6E00ECEED5 /* Sources */,
+				8CD184792B603D6E00ECEED5 /* Frameworks */,
+				8CD1847A2B603D6E00ECEED5 /* Resources */,
+				E83EBEA01CF8FC440B313BA0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChitChaT;
+			productName = ChitChaT;
+			productReference = 8CD1847C2B603D6E00ECEED5 /* ChitChaT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CD184912B603D7200ECEED5 /* ChitChaTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD184A92B603D7200ECEED5 /* Build configuration list for PBXNativeTarget "ChitChaTTests" */;
+			buildPhases = (
+				B9E8082F1049725E05FAA3CE /* [CP] Check Pods Manifest.lock */,
+				8CD1848E2B603D7200ECEED5 /* Sources */,
+				8CD1848F2B603D7200ECEED5 /* Frameworks */,
+				8CD184902B603D7200ECEED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD184942B603D7200ECEED5 /* PBXTargetDependency */,
+			);
+			name = ChitChaTTests;
+			productName = ChitChaTTests;
+			productReference = 8CD184922B603D7200ECEED5 /* ChitChaTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CD1849B2B603D7200ECEED5 /* ChitChaTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD184AC2B603D7200ECEED5 /* Build configuration list for PBXNativeTarget "ChitChaTUITests" */;
+			buildPhases = (
+				D35E7BEE9C22807274B04A36 /* [CP] Check Pods Manifest.lock */,
+				8CD184982B603D7200ECEED5 /* Sources */,
+				8CD184992B603D7200ECEED5 /* Frameworks */,
+				8CD1849A2B603D7200ECEED5 /* Resources */,
+				462363E1AB08E9FCDED5DF92 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD1849E2B603D7200ECEED5 /* PBXTargetDependency */,
+			);
+			name = ChitChaTUITests;
+			productName = ChitChaTUITests;
+			productReference = 8CD1849C2B603D7200ECEED5 /* ChitChaTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD184742B603D6E00ECEED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8CD1847B2B603D6E00ECEED5 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8CD184912B603D7200ECEED5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8CD1847B2B603D6E00ECEED5;
+					};
+					8CD1849B2B603D7200ECEED5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8CD1847B2B603D6E00ECEED5;
+					};
+				};
+			};
+			buildConfigurationList = 8CD184772B603D6E00ECEED5 /* Build configuration list for PBXProject "ChitChaT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CD184732B603D6E00ECEED5;
+			productRefGroup = 8CD1847D2B603D6E00ECEED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD1847B2B603D6E00ECEED5 /* ChitChaT */,
+				8CD184912B603D7200ECEED5 /* ChitChaTTests */,
+				8CD1849B2B603D7200ECEED5 /* ChitChaTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD1847A2B603D6E00ECEED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD1848C2B603D7100ECEED5 /* LaunchScreen.storyboard in Resources */,
+				8CF39BA92B7030F300101C43 /* CellMessage.xib in Resources */,
+				8CD184892B603D7100ECEED5 /* Assets.xcassets in Resources */,
+				8CD184872B603D6E00ECEED5 /* Main.storyboard in Resources */,
+				8CC30C242B6745810016878D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD184902B603D7200ECEED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD1849A2B603D7200ECEED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		462363E1AB08E9FCDED5DF92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChitChaT-ChitChaTUITests/Pods-ChitChaT-ChitChaTUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChitChaT-ChitChaTUITests/Pods-ChitChaT-ChitChaTUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChitChaT-ChitChaTUITests/Pods-ChitChaT-ChitChaTUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A87E4CAD0BCD32CE0FFF46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChitChaT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9E8082F1049725E05FAA3CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChitChaTTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D35E7BEE9C22807274B04A36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChitChaT-ChitChaTUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83EBEA01CF8FC440B313BA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChitChaT/Pods-ChitChaT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChitChaT/Pods-ChitChaT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChitChaT/Pods-ChitChaT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD184782B603D6E00ECEED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD184B02B60410F00ECEED5 /* LoginViewController.swift in Sources */,
+				8CF39BA82B7030F300101C43 /* CellMessage.swift in Sources */,
+				8CD184B32B60415C00ECEED5 /* RegisterViewController.swift in Sources */,
+				8CD184842B603D6E00ECEED5 /* WelcomeViewController.swift in Sources */,
+				8CD184802B603D6E00ECEED5 /* AppDelegate.swift in Sources */,
+				8CF39BA12B70224000101C43 /* Constants.swift in Sources */,
+				8CF39BA42B7028CB00101C43 /* Message.swift in Sources */,
+				8CD184B52B60417B00ECEED5 /* ChatViewController.swift in Sources */,
+				8CD184822B603D6E00ECEED5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD1848E2B603D7200ECEED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD184972B603D7200ECEED5 /* ChitChaTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD184982B603D7200ECEED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD184A32B603D7200ECEED5 /* ChitChaTUITestsLaunchTests.swift in Sources */,
+				8CD184A12B603D7200ECEED5 /* ChitChaTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CD184942B603D7200ECEED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD1847B2B603D6E00ECEED5 /* ChitChaT */;
+			targetProxy = 8CD184932B603D7200ECEED5 /* PBXContainerItemProxy */;
+		};
+		8CD1849E2B603D7200ECEED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD1847B2B603D6E00ECEED5 /* ChitChaT */;
+			targetProxy = 8CD1849D2B603D7200ECEED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CD184852B603D6E00ECEED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD184862B603D6E00ECEED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CD1848A2B603D7100ECEED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD1848B2B603D7100ECEED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CD184A42B603D7200ECEED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CD184A52B603D7200ECEED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CD184A72B603D7200ECEED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9B57BE930DA33366C51FB6 /* Pods-ChitChaT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChitChaT/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.users.ChitChaT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CD184A82B603D7200ECEED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32BC5508F2D7133E9B8E48BE /* Pods-ChitChaT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChitChaT/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.users.ChitChaT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CD184AA2B603D7200ECEED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1D112B7982C6F61D9FFAD8 /* Pods-ChitChaTTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.users.ChitChaTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChitChaT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChitChaT";
+			};
+			name = Debug;
+		};
+		8CD184AB2B603D7200ECEED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162E56B84400CD6D533CE06A /* Pods-ChitChaTTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.users.ChitChaTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChitChaT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChitChaT";
+			};
+			name = Release;
+		};
+		8CD184AD2B603D7200ECEED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364628ABD47401A8726EAF5C /* Pods-ChitChaT-ChitChaTUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.users.ChitChaTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChitChaT;
+			};
+			name = Debug;
+		};
+		8CD184AE2B603D7200ECEED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B853EB679147391874BE44C /* Pods-ChitChaT-ChitChaTUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.users.ChitChaTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChitChaT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD184772B603D6E00ECEED5 /* Build configuration list for PBXProject "ChitChaT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD184A42B603D7200ECEED5 /* Debug */,
+				8CD184A52B603D7200ECEED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD184A62B603D7200ECEED5 /* Build configuration list for PBXNativeTarget "ChitChaT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD184A72B603D7200ECEED5 /* Debug */,
+				8CD184A82B603D7200ECEED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD184A92B603D7200ECEED5 /* Build configuration list for PBXNativeTarget "ChitChaTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD184AA2B603D7200ECEED5 /* Debug */,
+				8CD184AB2B603D7200ECEED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD184AC2B603D7200ECEED5 /* Build configuration list for PBXNativeTarget "ChitChaTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD184AD2B603D7200ECEED5 /* Debug */,
+				8CD184AE2B603D7200ECEED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD184742B603D6E00ECEED5 /* Project object */;
+}
